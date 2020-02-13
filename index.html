@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="icon" href="CSS/IMG/lzdd-z.png" />
+	<script src="jquery/jquery.js"></script>
+	<title>La zone du dehors</title>
+
+	<script>
+		$(window).load(function() {
+
+		$('.el-name.leo').click(function(){
+				$('.el-pp.homme3').removeClass('active');
+				$('.el-pp.homme2').removeClass('active');
+				$('.el-pp.homme1').removeClass('active');
+				$('.el-pp.homme1').addClass('active');
+
+				$(this).addClass('show');
+				$('.el-name.brice').removeClass('show');
+				$('.el-name.morgan').removeClass('show');	
+				
+			});
+		$('.el-name.brice').click(function(){
+				$('.el-pp.homme3').removeClass('active');
+				$('.el-pp.homme2').removeClass('active');
+				$('.el-pp.homme1').removeClass('active');
+				$('.el-pp.homme2').addClass('active');
+
+				$(this).addClass('show');
+				$('.el-name.leo').removeClass('show');
+				$('.el-name.morgan').removeClass('show');	
+				
+				
+			});
+		$('.el-name.morgan').click(function(){
+				$('.el-pp.homme2').removeClass('active');
+				$('.el-pp.homme1').removeClass('active');
+				$('.el-pp.homme3').removeClass('active');
+				$('.el-pp.homme3').addClass('active');
+
+				$(this).addClass('show');
+				$('.el-name.brice').removeClass('show');
+				$('.el-name.leo').removeClass('show');				
+			});
+
+		$('.el-name.leo').click();
+
+		/*function event*/
+		
+		$('.points-un').click(function(){	
+		$('.contain-events-deux').removeClass('active');
+		$('.contain-events-trois').removeClass('active');
+		$('.contain-events-quatre').removeClass('active');		
+		$('.contain-events-un').addClass('active');
+
+		$(this).addClass('show');
+		$('.points-deux').removeClass('show');
+		$('.points-trois').removeClass('show');	
+		$('.points-quatre').removeClass('show');
+									
+		});
+
+		$('.points-deux').click(function(){
+		$('.contain-events-un').removeClass('active');
+		$('.contain-events-trois').removeClass('active');
+		$('.contain-events-quatre').removeClass('active');		
+		$('.contain-events-deux').addClass('active');
+
+		$(this).addClass('show');
+		$('.points-un').removeClass('show');
+		$('.points-trois').removeClass('show');	
+		$('.points-quatre').removeClass('show');									
+		});
+
+		$('.points-trois').click(function(){	
+		$('.contain-events-un').removeClass('active');
+		$('.contain-events-deux').removeClass('active');
+		$('.contain-events-quatre').removeClass('active');		
+		$('.contain-events-trois').addClass('active');
+
+		$(this).addClass('show');
+		$('.points-deux').removeClass('show');
+		$('.points-un').removeClass('show');	
+		$('.points-quatre').removeClass('show');
+									
+		});
+
+		$('.points-quatre').click(function(){	
+		$('.contain-events-un').removeClass('active');
+		$('.contain-events-trois').removeClass('active');
+		$('.contain-events-deux').removeClass('active');		
+		$('.contain-events-').addClass('active');
+
+		$(this).addClass('show');
+		$('.points-deux').removeClass('show');
+		$('.points-trois').removeClass('show');	
+		$('.points-un').removeClass('show');
+									
+			});
+			$('div.points-un').click();
+	});
+
+	
+	</script>
+</head>
+<body>
+	<header>
+		<nav class="main-menu">
+			<ul>
+				<li class="logo-nav"><img src="CSS/IMG/logo la zone du dehors.png"></li>
+				<li><a class="active" href="index.html">Accueil</a></li>
+				<li><a href="index.html">Librairie</a></li>
+				<li><a href="index.html">Ludothéque</a></li>
+				<li><a href="index.html">Café</a></li>
+				<li><a href="index.html">Événement</a></li>
+				<li class="line-nav"><a href="index.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<div class="hero">
+	<div class="contain">
+		<h1 class="title">La zone du dehors</h1>
+		<hr id="rotation">
+		<p class="paragraphe">Tart lollipop apple pie pastry cake marzipan chocolate cake caramels halvah. Gummi bears jelly-o pastry soufflé donut cookie apple pie cake brownie. Biscuit gummi bears cotton candy powder lollipop apple pie cookie cake. Cotton candy chocolate dessert jujubes tiramisu toffee sweet soufflé.</p>
+		<button class="button-hero"><a href="#">Nous contacter</a></button>
+	</div>
+	<div class="contain-image">
+		<img src="CSS/IMG/illustration-accueil.png">
+	</div>
+</div>
+<hr class="barre-title-services">
+<h2 class="title-information">NOS SERVICES</h2>
+<div class="contain-information">
+	
+	<div class="col-12"></div>
+	<div class="col-25">
+		<img class="icon" src="CSS/IMG/book.png">
+			<div class="text-right">
+				<h2>Une large gamme de livres</h2>
+					<p class="paragraphe-information">Tart lollipop apple pie pastry cake marzipan chocolate cake caramels halvah. Gummi bears jelly-o pastry soufflé donut cookie apple pie cake brownie. Biscuit gummi bears cotton candy powder lollipop apple Tart lollipop apple pie pastry cake marzipan chocolate cake caramels halvah. Gummi bears jelly-o pastry soufflé donut cookie apple pie cake brownie. Biscuit gummi bears cotton candy powder lollipop apple</p>
+			</div>
+			<button class="button-information"><a href="#">En savoir plus</a></button>
+	</div>
+	<div class="col-25">
+		<img class="icon" src="CSS/IMG/game.png">
+			<div class="text-right">
+				<h2>Un vaste panel de jeux</h2>
+					<p class="paragraphe-information">Tart lollipop apple pie pastry cake marzipan chocolate cake caramels halvah. Gummi bears jelly-o pastry soufflé donut cookie apple pie cake brownie. Biscuit gummi bears cotton candy powder lollipop apple
+					Tart lollipop apple pie pastry cake marzipan chocolate cake caramels halvah. Gummi bears jelly-o pastry soufflé donut cookie apple pie cake brownie. Biscuit gummi bears cotton candy powder lollipop apple</p>
+			</div>
+			<button class="button-information"><a href="#">En savoir plus</a></button>
+	</div>
+	<div class="col-25">
+		<img class="icon" src="CSS/IMG/cafe.png">
+			<div class="text-right">
+				<h2>Une bonne dose de caféine</h2>
+					<p class="paragraphe-information">Tart lollipop apple pie pastry cake marzipan chocolate cake caramels halvah. Gummi bears jelly-o pastry soufflé donut cookie apple pie cake brownie. Biscuit gummi bears cotton candy powder lollipop apple Tart lollipop apple pie pastry cake marzipan chocolate cake caramels halvah. Gummi bears jelly-o pastry soufflé donut cookie apple pie cake brownie. Biscuit gummi bears cotton candy powder lollipop apple</p>
+			</div>
+			<button class="button-information"><a href="#">En savoir plus</a></button>
+	</div>
+	<div class="col-12"></div>	
+</div>
+<hr class="barre-title-livre">
+<h2 class="title-livre">Les dernières sorties</h2>
+<div class="container-livre">
+<div class="col-12"></div>	
+	<div class="col-25">
+		<div class="col-book">
+			<img class="book" src="CSS/IMG/livre1.png">
+				<div class="">
+					<h2 class="name-livre">L’homme qui pleure de rire</h2>
+						<p class="paragraphe-auteur">Auteur : Frédéric Beigbeder</p>
+				</div>
+				<div class="section-button-livre">
+					<button class="button-livre bleu"><a href="#">Action</a></button>
+					<button class="button-livre bleu-claire"><a href="#">Science</a></button>
+				</div>
+		</div>
+	</div>
+
+	<div class="col-25">
+		<div class="col-book">
+			<img class="book" src="CSS/IMG/livre2.png">
+				<div class="">
+					<h2 class="name-livre">L’homme qui pleure de rire</h2>
+						<p class="paragraphe-auteur">Auteur : Frédéric Beigbeder</p>
+				</div>
+				<div class="section-button-livre">
+					<button class="button-livre bleu"><a href="#">Action</a></button>
+					<button class="button-livre bleu-claire"><a href="#">Science</a></button>
+				</div>
+		</div>
+	</div>
+
+	<div class="col-25">
+		<div class="col-book">
+			<img class="book" src="CSS/IMG/livre3.png">
+				<div class="">
+					<h2 class="name-livre">L’homme qui pleure de rire</h2>
+						<p class="paragraphe-auteur">Auteur : Frédéric Beigbeder</p>
+				</div>
+				<div class="section-button-livre">
+					<button class="button-livre bleu"><a href="#">Action</a></button>
+					<button class="button-livre bleu-claire"><a href="#">Science</a></button>
+				</div>
+		</div>
+	</div>
+	<div class="col-12"></div>
+</div>
+<button class="button-information-book"><a href="#">En savoir plus</a></button>
+
+<section id="section-team">
+				<div class="bnd"></div>
+				<div class="wrapper-caroussel-pp">
+					<hr class="barre-title">
+					<h2 class="title-team">NOTRE<br>EQUIPE</h2>
+					<div class="container-caroussel-pp">
+						<div class="el-pp homme1"><img src="CSS/IMG/homme1.jpg"></div>
+						<div class="el-pp homme2"><img src="CSS/IMG/homme2.jpg"></div>
+						<div class="el-pp homme3"><img src="CSS/IMG/homme3.jpg"></div>						
+					</div>
+				</div>
+				<div class="container-text">
+					<button class="button-team"><a href="#">Nous contacter</a></button>
+					<p class="paragraphe-team">Une équipe à taille humaine,<br>proche de vous,<br>sans intermédiaires.</p>
+					<div class="container-caroussel-name">
+						<div class="el-name leo">
+							<hr class="barre-name">
+							<div class="prg"></div>
+							<p class="name">LEO</p>
+							<p class="job">Le Comptable boulet du groupe</p>
+						</div>
+						<div class="el-name brice">
+							<hr class="barre-name">
+							<div class="prg"></div>
+							<p class="name">BRICE</p>
+							<p class="job">Le libraire de l’équipe</p>
+						</div>
+						<div class="el-name morgan">
+							<hr class="barre-name">
+							<div class="prg"></div>
+							<p class="name">MORGAN</p>
+							<p class="job">L’expert des fourneaux</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container-events">
+				<hr class="barre-title-events">
+				<h2 class="title-events">Nos prochains événements</h2>
+				<div class="contain-events-un">
+						<p class="pararagraphe-date	">FÉV<br> 14</p>				
+						<p class="paragraphe-event">SEXE OU LES PRATIQUES 
+							DES SUPERS HÉROS</p>
+						<button class="button-events"><a href="#">S'inscrire</a></button>
+				</div>
+				<div class="contain-events-deux">
+					<p class="pararagraphe-date	">FÉV<br> 18</p>				
+					<p class="paragraphe-event">UNE HISTOIRE POLITIQUE 
+						DE SUPER-HÉROS </p>
+					<button class="button-events"><a href="#">S'inscrire</a></button>
+				</div>
+				<div class="contain-events-trois">
+					<p class="pararagraphe-date	">FÉV<br> 22</p>				
+					<p class="paragraphe-event">ATELIER D’ÉCRITURE DE 
+						DIRECTIVES ANTICIPÉES</p>
+					<button class="button-events"><a href="#">S'inscrire</a></button>
+				</div>
+				<div class="contain-events-quatre">
+					<p class="pararagraphe-date	">MAR<br> 27</p>				
+					<p class="paragraphe-event">VALENCIA PALACE : 
+						- RENCONTRE - DÉDICACE</p>
+					<button class="button-events"><a href="#">S'inscrire</a></button>
+				</div>
+				<div class="contain-image-events">
+					<img src="CSS/IMG/illu-events.png">
+				</div>
+
+				<div class="point">
+					<div class="points-un"></div>
+					<div class="points-deux"></div>
+					<div class="points-trois"></div>
+					<div class="points-quatre"></div>
+				</div>
+			</section>
+</body>
+<footer>
+	<div class="container-footer">
+		<div class="col-25-footer">
+		<img class="logo-footer" src="CSS/IMG/logo la zone du dehors.png">
+		</div>
+		<div class="col-25-footer">
+		<h3 class="title-footer">Plan du site</h3>
+		<p class="paragraphe-footer">Accueil</p>
+		<p class="paragraphe-footer">Librairie</p>
+		<p class="paragraphe-footer">Ludothéque</p>
+		<p class="paragraphe-footer">Café</p>
+		<p class="paragraphe-footer">Événement</p>
+		<p class="paragraphe-footer">Contact</p>
+		</div>
+
+		<div class="col-25-footer">
+		<h3 class="title-footer">Nous contacter</h3>
+		<p class="paragraphe-footer">68 cours Victor Hugo</p>
+		<p class="paragraphe-footer">33000 Bordeaux</p>
+		<p class="paragraphe-footer">contact@lazonedudehors.fr</p>
+		<p class="paragraphe-footer">Du Mardi au Samedi : 10h30 - 19h30</p>
+		<p class="paragraphe-footer">Dimanche : 13h - 19h</p>
+		<p class="paragraphe-footer">+33 09 82 23 27 78</p>
+		</div>
+
+		<div class="col-25-footer">
+		<h3 class="title-footer">Nous réseaux</h3>
+		<img class="icon-footer" src="CSS/IMG/facebook.png">
+		<img class="icon-footer" src="CSS/IMG/instagram.png">
+		<img class="icon-footer" src="CSS/IMG/twitter.png">
+		</div>
+	</div>
+
+	<div class="container-footer-last">
+		<div class="col-25-footer-end"></div>
+		<p class="col-25-footer-last">© 2020 La zone du dehors. Tous droits réservés</p>
+		<p class="col-25-footer-last">Cookies, Anti-Spam, Confidentialité & Conditions générales</p>
+		<div class="col-25-footer-end"></div>
+	</div>
+</footer>
+</html>

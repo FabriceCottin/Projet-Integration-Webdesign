@@ -1,0 +1,19 @@
+@font-face {
+	font-family: ADega Serif;
+	src: local("ADega Serif Bold Italic"),
+	url(TYPO/ADega Serif Bold Italic.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Proxima Nova Bold;
+	src: local("Proxima Nova Bold"),
+	url(TYPO/Proxima-Nova-Bold.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Proxima Regular;
+	src: local("ProximaNova-Regular"),
+	url(TYPO/ProximaNova-Regular.otf);
+}
